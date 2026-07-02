@@ -30,8 +30,7 @@ export const profile = {
   location: "Union City, CA · Open to relocation · Remote or hybrid",
 
   // ── Contact + social links ────────────────────────────────────────────────
-  // NOTE: your résumé lists devptl2000@gmail.com but the workspace uses the
-  // careers address below. Pick ONE and keep it consistent everywhere.
+  // Public contact email (chosen over the résumé's devptl2000@gmail.com).
   email: "careers.devpatel@gmail.com",
   linkedin: "https://www.linkedin.com/in/devpatel2000/",
   github: "https://github.com/devvdpatel",
@@ -50,7 +49,7 @@ export const profile = {
  * generate correct absolute links.
  */
 export const site = {
-  url: "https://dev-patel-portfolio.vercel.app", // ← change to your deployed URL
+  url: "https://dev-patel-portfolio-kohl.vercel.app", // live production URL
   title: "Dev Patel — Data Analyst & Data Scientist",
   description:
     "Portfolio of Dev Patel — M.S. Data Science. Forecasting, optimization, BI dashboards, and financial analysis. Seeking Data Analyst, Data Scientist, Business & Finance Analyst roles.",
