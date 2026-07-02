@@ -49,7 +49,7 @@ export const profile = {
  * generate correct absolute links.
  */
 export const site = {
-  url: "https://dev-patel-portfolio-kohl.vercel.app", // live production URL
+  url: "https://dev-p-portfolio.vercel.app", // live production URL
   title: "Dev Patel — Data Analyst & Data Scientist",
   description:
     "Portfolio of Dev Patel — M.S. Data Science. Forecasting, optimization, BI dashboards, and financial analysis. Seeking Data Analyst, Data Scientist, Business & Finance Analyst roles.",
