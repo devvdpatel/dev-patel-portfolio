@@ -27,7 +27,7 @@ export const profile = {
   summary:
     "I'm a data scientist and analyst with an M.S. in Data Science (CSU East Bay) and a B.S. in Mathematics. My work spans 50M+ row demand-forecasting pipelines, financial forecasting for multi-million-dollar public budgets, and predictive marketing that lifted enrollment 10%. I pair statistical rigor — cross-validation, Monte Carlo, optimization — with clear communication, translating models into plain-English decisions for non-technical stakeholders.",
 
-  location: "Union City, CA · Open to relocation · Remote or hybrid",
+  location: "San Francisco, CA · Open to relocation · Remote or hybrid",
 
   // ── Contact + social links ────────────────────────────────────────────────
   // Public contact email (chosen over the résumé's devptl2000@gmail.com).
