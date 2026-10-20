@@ -1,5 +1,4 @@
 import { BrainCircuit, Lightbulb, MessagesSquare, Target } from "lucide-react";
-import { profile } from "@/data/profile";
 import Section from "./Section";
 import SectionHeading from "./SectionHeading";
 import Reveal from "./Reveal";
@@ -8,22 +7,22 @@ const TRAITS = [
   {
     Icon: BrainCircuit,
     title: "Analytical thinking",
-    body: "Statistical rigor by default — cross-validation, Monte Carlo, and clean experiment design before any conclusion.",
+    body: "Uses cross-validation, Monte Carlo simulation, and careful experiments before drawing conclusions.",
   },
   {
     Icon: Lightbulb,
     title: "Problem-solving",
-    body: "Frames the business question first, then reaches for the right model — from ARIMA to mixed-integer optimization.",
+    body: "Starts with the business question and chooses a model that fits it, whether that is ARIMA or mixed-integer optimization.",
   },
   {
     Icon: MessagesSquare,
     title: "Communication",
-    body: "Translates models into plain-English decisions with dashboards and AI assistants non-technical teams actually use.",
+    body: "Explains results in plain English through dashboards and practical AI tools.",
   },
   {
     Icon: Target,
     title: "Business impact",
-    body: "Optimizes for outcomes that move metrics: lower cost, higher ROI, better forecasts, faster decisions.",
+    body: "Focuses on work that lowers costs, improves forecasts, increases ROI, or helps teams decide faster.",
   },
 ];
 
@@ -39,20 +38,26 @@ export default function About() {
         {/* Narrative */}
         <Reveal className="lg:col-span-3">
           <div className="space-y-5 text-lg leading-relaxed text-slate-600 dark:text-slate-300">
-            <p>{profile.summary}</p>
             <p>
-              I&apos;m drawn to work that sits at the intersection of{" "}
-              <span className="font-semibold text-slate-900 dark:text-white">data analytics</span>,{" "}
-              <span className="font-semibold text-slate-900 dark:text-white">finance</span>,{" "}
-              <span className="font-semibold text-slate-900 dark:text-white">business intelligence</span>,{" "}
-              <span className="font-semibold text-slate-900 dark:text-white">project delivery</span>, and{" "}
-              <span className="font-semibold text-slate-900 dark:text-white">data science</span> — wherever a
-              sharp question and a messy dataset meet a real decision.
+              I&apos;m a data analyst with an M.S. in Business Analytics from Cal State East Bay and a B.S. in
+              Mathematics from Cal State Stanislaus. I like problems where the data is messy and someone has a
+              real decision to make with it.
             </p>
             <p>
-              Most recently that&apos;s meant building forecasting and optimization systems on tens of millions
-              of rows, shipping tested analytics pipelines with CI/CD, and pairing them with assistants built on
-              the Claude API so the insight reaches the people who act on it.
+              For my master&apos;s capstone, I worked on a team of three to build an inventory planning tool on
+              Walmart&apos;s M5 sales data. It forecasts demand with LightGBM, tests reorder policies with Monte
+              Carlo simulation, and chooses which items to stock under a budget with an optimization model. My
+              part was an assistant built on the Claude API that lets a planner ask questions about the results
+              in plain English.
+            </p>
+            <p>
+              Before that, I interned with the City of Modesto&apos;s finance team, where I worked on budget
+              analysis and expenditure forecasting. I also worked as a data analyst in admissions at Cal State
+              Stanislaus, building Tableau dashboards for the recruitment team.
+            </p>
+            <p>
+              I&apos;m looking for analyst roles in supply chain, operations and finance, where the work ends in a
+              decision someone acts on.
             </p>
           </div>
         </Reveal>
