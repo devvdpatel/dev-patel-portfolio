@@ -6,23 +6,23 @@ import Reveal from "./Reveal";
 const TRAITS = [
   {
     Icon: BrainCircuit,
-    title: "Analytical thinking",
-    body: "Uses cross-validation, Monte Carlo simulation, and careful experiments before drawing conclusions.",
+    title: "Forecasting",
+    body: "ARIMA, ETS, and Prophet for time series; LightGBM when there are many related series to forecast at once.",
   },
   {
     Icon: Lightbulb,
-    title: "Problem-solving",
-    body: "Starts with the business question and chooses a model that fits it, whether that is ARIMA or mixed-integer optimization.",
+    title: "Inventory and optimization",
+    body: "Reorder policies tested with Monte Carlo simulation, and budget-constrained stocking plans built in Pyomo.",
   },
   {
     Icon: MessagesSquare,
-    title: "Communication",
-    body: "Explains results in plain English through dashboards and practical AI tools.",
+    title: "Reporting",
+    body: "Budget variance reports and dashboards in Excel and Tableau, written for managers rather than analysts.",
   },
   {
     Icon: Target,
-    title: "Business impact",
-    body: "Focuses on work that lowers costs, improves forecasts, increases ROI, or helps teams decide faster.",
+    title: "AI assistants",
+    body: "Claude API tools that answer questions from model output, so the answer comes from the data and not from a guess.",
   },
 ];
 
@@ -31,7 +31,7 @@ export default function About() {
     <Section id="about">
       <SectionHeading
         eyebrow="About"
-        title="Turning data into decisions"
+        title="Background"
       />
 
       <div className="grid items-start gap-12 lg:grid-cols-5">

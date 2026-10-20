@@ -27,8 +27,8 @@ export default function Skills() {
     <Section id="skills" className="bg-slate-50 dark:bg-slate-900/30">
       <SectionHeading
         eyebrow="Skills"
-        title="A full analytics toolkit"
-        description="From SQL and dashboards to machine learning, forecasting, and the data engineering that ships it to production."
+        title="Tools"
+        description="What I've used in coursework, internships, and the projects below."
       />
 
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

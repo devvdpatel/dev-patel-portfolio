@@ -24,7 +24,7 @@ export default function ThemeToggle() {
     try {
       localStorage.setItem("theme", next ? "dark" : "light");
     } catch {
-      /* localStorage may be unavailable (private mode) — ignore. */
+      /* localStorage may be unavailable (private mode); ignore. */
     }
   }
 

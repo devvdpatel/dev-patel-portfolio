@@ -14,10 +14,10 @@ export default function Contact() {
             Contact
             <span className="h-px w-8 bg-brand-500" aria-hidden="true" />
           </p>
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Let&apos;s talk</h2>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Get in touch</h2>
           <p className="mx-auto mt-4 text-lg text-slate-600 dark:text-slate-400">
-            I&apos;m actively looking for full-time Data Analyst, Data Scientist, and Business/Finance
-            Analyst roles. If you think there&apos;s a fit, I&apos;d love to hear from you.
+            I&apos;m looking for full-time analyst roles in supply chain, operations, and finance. Email
+            is the fastest way to reach me.
           </p>
 
           <div className="mt-8 flex flex-col items-center gap-5">

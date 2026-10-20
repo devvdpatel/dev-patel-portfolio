@@ -2,7 +2,7 @@
   "name": "dev-patel-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Personal portfolio website for Dev Patel — Data Analyst / Data Scientist.",
+  "description": "Personal portfolio website for Dev Patel, data analyst.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

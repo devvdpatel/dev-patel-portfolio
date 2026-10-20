@@ -9,8 +9,8 @@ export default function Experience() {
     <Section id="experience" className="bg-slate-50 dark:bg-slate-900/30">
       <SectionHeading
         eyebrow="Experience"
-        title="Where I've made an impact"
-        description="Analyst roles where I turned data into budget decisions, recruitment strategy, and measurable results."
+        title="Work"
+        description="Two analyst roles: budget analysis for a city government and admissions reporting for a university."
       />
 
       <div className="relative">

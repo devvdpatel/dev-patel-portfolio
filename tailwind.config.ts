@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  // Class-based dark mode — toggled by adding/removing `dark` on <html>.
+  // Class-based dark mode, toggled by adding/removing `dark` on <html>.
   darkMode: "class",
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -39,7 +39,7 @@ const config: Config = {
         display: ["var(--font-sora)", "var(--font-inter)", "sans-serif"],
       },
       maxWidth: {
-        content: "72rem", // 1152px — comfortable reading width for the page shell.
+        content: "72rem", // 1152px, comfortable reading width for the page shell.
       },
       keyframes: {
         "fade-up": {

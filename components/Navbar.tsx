@@ -43,7 +43,7 @@ export default function Navbar() {
     >
       <nav className="container-page flex h-16 items-center justify-between" aria-label="Primary">
         {/* Logo / name */}
-        <a href="#home" className="group flex items-center gap-2.5" aria-label={`${profile.name} — home`}>
+        <a href="#home" className="group flex items-center gap-2.5" aria-label={`${profile.name}, home`}>
           <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-600 text-sm font-bold text-white shadow-sm transition-transform group-hover:scale-105">
             DP
           </span>
