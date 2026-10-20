@@ -7,22 +7,22 @@ const TRAITS = [
   {
     Icon: BrainCircuit,
     title: "Analytical thinking",
-    body: "Statistical rigor by default — cross-validation, Monte Carlo, and clean experiment design before any conclusion.",
+    body: "Uses cross-validation, Monte Carlo simulation, and careful experiments before drawing conclusions.",
   },
   {
     Icon: Lightbulb,
     title: "Problem-solving",
-    body: "Frames the business question first, then reaches for the right model — from ARIMA to mixed-integer optimization.",
+    body: "Starts with the business question and chooses a model that fits it, whether that is ARIMA or mixed-integer optimization.",
   },
   {
     Icon: MessagesSquare,
     title: "Communication",
-    body: "Translates models into plain-English decisions with dashboards and AI assistants non-technical teams actually use.",
+    body: "Explains results in plain English through dashboards and practical AI tools.",
   },
   {
     Icon: Target,
     title: "Business impact",
-    body: "Optimizes for outcomes that move metrics: lower cost, higher ROI, better forecasts, faster decisions.",
+    body: "Focuses on work that lowers costs, improves forecasts, increases ROI, or helps teams decide faster.",
   },
 ];
 
