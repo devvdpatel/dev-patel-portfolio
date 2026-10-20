@@ -1,5 +1,4 @@
 import { BrainCircuit, Lightbulb, MessagesSquare, Target } from "lucide-react";
-import { profile } from "@/data/profile";
 import Section from "./Section";
 import SectionHeading from "./SectionHeading";
 import Reveal from "./Reveal";
@@ -39,20 +38,26 @@ export default function About() {
         {/* Narrative */}
         <Reveal className="lg:col-span-3">
           <div className="space-y-5 text-lg leading-relaxed text-slate-600 dark:text-slate-300">
-            <p>{profile.summary}</p>
             <p>
-              I&apos;m drawn to work that sits at the intersection of{" "}
-              <span className="font-semibold text-slate-900 dark:text-white">data analytics</span>,{" "}
-              <span className="font-semibold text-slate-900 dark:text-white">finance</span>,{" "}
-              <span className="font-semibold text-slate-900 dark:text-white">business intelligence</span>,{" "}
-              <span className="font-semibold text-slate-900 dark:text-white">project delivery</span>, and{" "}
-              <span className="font-semibold text-slate-900 dark:text-white">data science</span> — wherever a
-              sharp question and a messy dataset meet a real decision.
+              I&apos;m a data analyst with an M.S. in Business Analytics from Cal State East Bay and a B.S. in
+              Mathematics from Cal State Stanislaus. I like problems where the data is messy and someone has a
+              real decision to make with it.
             </p>
             <p>
-              Most recently that&apos;s meant building forecasting and optimization systems on tens of millions
-              of rows, shipping tested analytics pipelines with CI/CD, and pairing them with assistants built on
-              the Claude API so the insight reaches the people who act on it.
+              For my master&apos;s capstone, I worked on a team of three to build an inventory planning tool on
+              Walmart&apos;s M5 sales data. It forecasts demand with LightGBM, tests reorder policies with Monte
+              Carlo simulation, and chooses which items to stock under a budget with an optimization model. My
+              part was an assistant built on the Claude API that lets a planner ask questions about the results
+              in plain English.
+            </p>
+            <p>
+              Before that, I interned with the City of Modesto&apos;s finance team, where I worked on budget
+              analysis and expenditure forecasting. I also worked as a data analyst in admissions at Cal State
+              Stanislaus, building Tableau dashboards for the recruitment team.
+            </p>
+            <p>
+              I&apos;m looking for analyst roles in supply chain, operations and finance, where the work ends in a
+              decision someone acts on.
             </p>
           </div>
         </Reveal>
