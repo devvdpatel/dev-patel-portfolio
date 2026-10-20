@@ -4,7 +4,7 @@ import { profile } from "@/data/profile";
 // Generates a 1200×630 social-share image at build time (link previews on
 // LinkedIn, X, Slack, iMessage, etc.). No image file to maintain by hand.
 // Statically generated (no runtime export) so it's cached as a plain image.
-export const alt = `${profile.name} — ${profile.headline}`;
+export const alt = `${profile.name}, ${profile.headline}`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

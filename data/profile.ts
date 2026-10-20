@@ -1,83 +1,73 @@
 /**
- * ============================================================================
- * PROFILE — your identity, links, headline, and the numbers in the hero.
- * ============================================================================
- * This is the FIRST file to edit when you make the site your own.
+ * PROFILE: identity, links, headline, and the numbers in the hero.
  * Everything here flows into the Hero, About, Contact, Footer, and SEO tags.
  */
 
 export const profile = {
   name: "Dev Patel",
 
-  // Shown under your name. The <Hero> rotates through `roles`; `headline` is the
-  // single-line fallback used in metadata and on small screens.
-  headline: "Data Analyst · Data Scientist · Business & Finance Analyst",
+  // `roles` rotate under the name in the hero. `headline` is used in metadata
+  // and the social share image.
+  headline: "Data Analyst · Forecasting, Inventory & Finance",
   roles: [
     "Data Analyst",
-    "Data Scientist",
-    "Business Analyst",
-    "Finance Analyst",
+    "Operations Analyst",
+    "Supply Chain Analyst",
+    "Financial Analyst",
   ],
 
-  // One punchy line for the hero (keep it under ~140 characters).
+  // One line under the rotating role (keep it under ~140 characters).
   tagline:
-    "M.S. Data Science. I turn messy, large-scale data into forecasts, optimization decisions, and dashboards that move business metrics.",
+    "I build forecasting, simulation, and optimization models in Python, SQL, and R, mostly for supply chain and finance decisions.",
 
-  // 2–3 sentences for the About section.
+  // Short bio used for metadata and anywhere a one-paragraph summary is needed.
   summary:
-    "I'm a data scientist and analyst with an M.S. in Data Science (CSU East Bay) and a B.S. in Mathematics. My work spans 50M+ row demand-forecasting pipelines, financial forecasting for multi-million-dollar public budgets, and predictive marketing that lifted enrollment 10%. I pair statistical rigor — cross-validation, Monte Carlo, optimization — with clear communication, translating models into plain-English decisions for non-technical stakeholders.",
+    "Data analyst with an M.S. in Business Analytics from Cal State East Bay and a B.S. in Mathematics from Cal State Stanislaus. I've worked on budget analysis for the City of Modesto, admissions reporting at Cal State Stanislaus, and a team capstone that forecasts Walmart demand and sets reorder policies.",
 
   location: "San Francisco, CA · Open to relocation · Remote or hybrid",
 
-  // ── Contact + social links ────────────────────────────────────────────────
-  // Public contact email (chosen over the résumé's devptl2000@gmail.com).
+  // Contact and social links
   email: "careers.devpatel@gmail.com",
   linkedin: "https://www.linkedin.com/in/devpatel2000/",
   github: "https://github.com/devvdpatel",
 
-  // Path to your résumé inside /public. Replace public/resume.pdf to update it.
+  // Path to the resume inside /public. Replace public/resume.pdf to update it.
   resume: "/resume.pdf",
 
-  // Phone is intentionally omitted from the public site for privacy.
-  // Add it back here only if you want it shown.
+  // Phone is left off the public site on purpose.
   // phone: "+1 (415) 963-2605",
 };
 
 /**
- * SITE / SEO config. After deploying, set `url` to your real domain
- * (e.g. https://devpatel.vercel.app) so Open Graph, sitemap, and robots
- * generate correct absolute links.
+ * SITE / SEO config.
  */
 export const site = {
-  url: "https://dev-p-portfolio.vercel.app", // live production URL
-  title: "Dev Patel — Data Analyst & Data Scientist",
+  url: "https://dev-p-portfolio.vercel.app",
+  title: "Dev Patel | Data Analyst",
   description:
-    "Portfolio of Dev Patel — M.S. Data Science. Forecasting, optimization, BI dashboards, and financial analysis. Seeking Data Analyst, Data Scientist, Business & Finance Analyst roles.",
-  // Keywords help you describe the page; modern search engines weight content
-  // more heavily, but these are still useful for clarity.
+    "Dev Patel, M.S. Business Analytics (Cal State East Bay). Demand forecasting, inventory optimization, and financial analysis in Python, SQL, and R.",
   keywords: [
     "Dev Patel",
     "Data Analyst",
-    "Data Scientist",
-    "Business Analyst",
+    "Operations Analyst",
+    "Supply Chain Analyst",
     "Financial Analyst",
-    "Machine Learning",
-    "Forecasting",
+    "Demand Forecasting",
+    "Inventory Optimization",
     "SQL",
     "Python",
+    "R",
     "Tableau",
-    "Power BI",
     "Portfolio",
   ],
 };
 
 /**
- * Headline metrics shown as a row of stat cards in the hero.
- * Keep these punchy and truthful — recruiters scan numbers first.
+ * Stat cards in the hero. Every number here should match the resume.
  */
 export const stats = [
   { value: "3.8/4.0", label: "Graduate GPA" },
-  { value: "50M+", label: "Rows of data modeled" },
-  { value: "90%", label: "Forecast accuracy" },
-  { value: "6", label: "End-to-end projects" },
+  { value: "$228.6M", label: "City budget analyzed" },
+  { value: "600", label: "Item-store series forecast" },
+  { value: "6", label: "Portfolio projects" },
 ];

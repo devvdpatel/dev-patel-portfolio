@@ -1,6 +1,5 @@
 /**
- * EXPERIENCE — internships, analyst roles, leadership.
- * Lead every bullet with an action verb and a number where you can.
+ * EXPERIENCE: keep these bullets in sync with the resume.
  */
 
 export interface ExperienceItem {
@@ -16,22 +15,23 @@ export const experience: ExperienceItem[] = [
     role: "Financial Analyst Intern",
     company: "City of Modesto",
     location: "Modesto, CA",
-    period: "May 2024 – Aug 2024",
+    period: "May 2024 - Aug 2024",
     bullets: [
-      "Analyzed budget reports and financial statements across 10+ city departments using SQL and Excel, surfacing discrepancies that informed annual budget reviews.",
-      "Automated record retention and destruction workflows in Python, reducing unnecessary storage expenses by 20%.",
-      "Built financial forecasting models in Python to project departmental expenditures, supporting budget-allocation decisions for multi-million-dollar city projects.",
+      "Analyzed monthly budget-to-actual performance for 10 departments within a $228.6M General Fund using SQL and Excel, identifying $1.3M in unfavorable spending variances and preparing corrective-action summaries for managers.",
+      "Reconciled 300+ accounts, catching $420K in misclassified or duplicate transactions before month-end close.",
+      "Built an Excel variance dashboard for 5 departments, saving 12 hours of monthly reporting and 2 days of review.",
+      "Built linear regression and ARIMA models in Python to forecast city expenditures for budget planning.",
     ],
   },
   {
     role: "Admissions Data Analyst",
     company: "California State University, Stanislaus",
     location: "Turlock, CA",
-    period: "Dec 2023 – Aug 2024",
+    period: "Dec 2023 - Aug 2024",
     bullets: [
-      "Analyzed close to 1,500 annual applications from students across 60+ countries using SQL and Excel to identify high-yield recruitment segments.",
-      "Led data-driven marketing campaigns using predictive analytics and personalized outreach, driving a 10% increase in Spring 2024 enrollment and surpassing targets.",
-      "Built interactive Tableau dashboards that delivered recruitment insights and secured a larger budget for international student marketing.",
+      "Analyzed application data from student populations worldwide using SQL and Excel.",
+      "Led outreach campaigns using predictive analytics, driving a 10% Spring 2024 enrollment increase above target.",
+      "Built interactive Tableau dashboards for the recruitment team; the findings supported an increased budget for international student marketing.",
     ],
   },
 ];

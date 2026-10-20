@@ -19,7 +19,7 @@ export default function Hero() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent-400 opacity-75" />
             <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-accent-500" />
           </span>
-          Open to full-time opportunities
+          Looking for full-time analyst roles
         </div>
 
         <h1 className="animate-fade-up text-4xl font-bold tracking-tight sm:text-6xl">

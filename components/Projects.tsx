@@ -14,8 +14,8 @@ export default function Projects() {
     <Section id="projects">
       <SectionHeading
         eyebrow="Projects"
-        title="Selected work"
-        description="End-to-end projects — each starts from a business problem and ends with a measurable result. Links go straight to the code and live docs."
+        title="Projects"
+        description="School and personal projects. Most cards link to the code on GitHub."
       />
 
       <div className="grid gap-6 md:grid-cols-2">

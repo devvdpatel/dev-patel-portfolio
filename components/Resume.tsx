@@ -3,8 +3,8 @@ import { profile } from "@/data/profile";
 import Reveal from "./Reveal";
 
 /**
- * Full-width gradient call-to-action band centered on the résumé download.
- * To update the résumé, replace /public/resume.pdf (see README).
+ * Full-width band with the resume download.
+ * To update the resume, replace /public/resume.pdf (see README).
  */
 export default function Resume() {
   return (
@@ -18,11 +18,11 @@ export default function Resume() {
                 <FileText className="h-6 w-6" />
               </span>
               <h2 className="mt-5 text-2xl font-bold text-white sm:text-3xl">
-                Have a role in mind?
+                Want the one-page version?
               </h2>
               <p className="mx-auto mt-3 max-w-xl text-brand-100">
-                My résumé has the full detail — experience, projects, and the numbers behind them.
-                Grab the PDF or connect with me on LinkedIn.
+                The PDF has the same experience and projects with dates and tools. You can also find
+                me on LinkedIn.
               </p>
               <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
                 <a
@@ -32,7 +32,7 @@ export default function Resume() {
                   className="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-5 py-2.5 text-sm font-semibold text-brand-700 shadow-sm transition-all hover:bg-brand-50 hover:shadow-md"
                 >
                   <Download className="h-4 w-4" />
-                  Download Résumé (PDF)
+                  Download Resume (PDF)
                 </a>
                 <a
                   href={profile.linkedin}

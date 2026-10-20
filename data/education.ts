@@ -1,5 +1,5 @@
 /**
- * EDUCATION — degrees, GPA, and relevant coursework.
+ * EDUCATION: degrees, GPA, and relevant coursework.
  */
 
 export interface EducationItem {
@@ -13,10 +13,10 @@ export interface EducationItem {
 
 export const education: EducationItem[] = [
   {
-    degree: "M.S. Data Science",
+    degree: "M.S. Business Analytics",
     school: "California State University, East Bay",
     location: "Hayward, CA",
-    period: "Aug 2024 – May 2026",
+    period: "Aug 2024 - May 2026",
     gpa: "3.8 / 4.0",
     coursework: [
       "Quantitative Statistics",
@@ -31,7 +31,7 @@ export const education: EducationItem[] = [
     degree: "B.S. Mathematics",
     school: "California State University, Stanislaus",
     location: "Turlock, CA",
-    period: "2019 – 2024",
+    period: "Aug 2019 - May 2024",
     gpa: "3.6 / 4.0",
     coursework: [
       "Probability & Statistics",

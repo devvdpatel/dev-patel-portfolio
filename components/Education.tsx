@@ -9,8 +9,8 @@ export default function Education() {
     <Section id="education">
       <SectionHeading
         eyebrow="Education"
-        title="Academic foundation"
-        description="A quantitative core — mathematics and data science — built around statistics, optimization, and machine learning."
+        title="Degrees"
+        description="A B.S. in Mathematics, then an M.S. in Business Analytics focused on statistics, optimization, and machine learning."
       />
 
       <div className="grid gap-6 md:grid-cols-2">

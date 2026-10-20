@@ -1,8 +1,7 @@
 /**
- * SKILLS — grouped into categories shown as a responsive grid.
+ * SKILLS: grouped into categories shown as a responsive grid.
  * `icon` is a key mapped to a Lucide icon in components/Skills.tsx
  * (allowed: bar-chart, code, trending-up, wallet, database, clipboard).
- * Add, remove, or reorder categories and items freely.
  */
 
 export interface SkillCategory {
@@ -13,70 +12,64 @@ export interface SkillCategory {
 
 export const skills: SkillCategory[] = [
   {
-    name: "Data Analytics & BI",
-    icon: "bar-chart",
-    items: ["SQL", "Excel", "Tableau", "Power BI", "Plotly", "Google Sheets"],
+    name: "Languages & Tools",
+    icon: "code",
+    items: ["Python", "SQL", "R", "MATLAB", "Mathematica", "Java", "JavaScript", "Git", "Jupyter"],
   },
   {
-    name: "Programming & Machine Learning",
-    icon: "code",
+    name: "Machine Learning & Forecasting",
+    icon: "trending-up",
     items: [
-      "Python",
-      "R",
-      "pandas",
-      "NumPy",
       "scikit-learn",
       "LightGBM",
       "TensorFlow",
       "PyTorch",
+      "Linear regression",
+      "ARIMA",
+      "Prophet",
     ],
   },
   {
-    name: "Forecasting & Statistics",
-    icon: "trending-up",
+    name: "Optimization & AI",
+    icon: "clipboard",
+    items: ["Pyomo", "SciPy", "MILP", "Monte Carlo simulation", "Anthropic Claude API"],
+  },
+  {
+    name: "Analysis & Visualization",
+    icon: "bar-chart",
     items: [
-      "Time-series (ARIMA / ETS / Prophet)",
-      "Monte Carlo simulation",
-      "Optimization (Pyomo / HiGHS)",
-      "Statistical modeling",
-      "A/B testing",
+      "pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Plotly",
+      "Streamlit",
+      "Tableau",
+      "Power BI",
+      "Excel",
     ],
   },
   {
-    name: "Business & Finance",
-    icon: "wallet",
-    items: [
-      "Financial forecasting",
-      "Budget & variance analysis",
-      "KPI tracking & reporting",
-      "Data-driven decision support",
-    ],
-  },
-  {
-    name: "Data Engineering & Tools",
+    name: "Databases & Data Engineering",
     icon: "database",
     items: [
+      "Microsoft SQL Server",
+      "MySQL",
+      "PostgreSQL",
+      "Azure Data Factory",
       "dbt",
       "DuckDB",
-      "PostgreSQL",
-      "MySQL",
-      "SQL Server",
-      "Azure Data Factory",
-      "Git & GitHub",
-      "CI/CD",
-      "Streamlit",
-      "Jupyter",
+      "GitHub Actions",
     ],
   },
   {
-    name: "Project & Delivery",
-    icon: "clipboard",
+    name: "Finance",
+    icon: "wallet",
     items: [
-      "Stakeholder communication",
-      "Technical documentation",
-      "Roadmapping & planning",
-      "Agile workflows",
-      "Cross-functional collaboration",
+      "Budget-to-actual analysis",
+      "Variance reporting",
+      "Account reconciliation",
+      "Expenditure forecasting",
     ],
   },
 ];

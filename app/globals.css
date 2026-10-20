@@ -47,7 +47,7 @@
 }
 
 @layer components {
-  /* Page shell — centers content and applies responsive horizontal padding. */
+  /* Page shell: centers content and applies responsive horizontal padding. */
   .container-page {
     @apply mx-auto w-full max-w-content px-5 sm:px-8;
   }

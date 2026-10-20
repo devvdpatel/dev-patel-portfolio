@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: site.url,
     title: site.title,
     description: site.description,
-    siteName: `${profile.name} — Portfolio`,
+    siteName: `${profile.name} Portfolio`,
   },
   twitter: {
     card: "summary_large_image",
@@ -44,7 +44,7 @@ const personJsonLd = {
   "@type": "Person",
   name: profile.name,
   url: site.url,
-  jobTitle: "Data Analyst & Data Scientist",
+  jobTitle: "Data Analyst",
   email: profile.email,
   sameAs: [profile.linkedin, profile.github],
   alumniOf: [
